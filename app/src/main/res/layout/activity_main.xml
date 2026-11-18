@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <ListView
+        android:id="@+id/lvContactes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/gray_200"
+        android:dividerHeight="1dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnNouContacte"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="@string/btn_add"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="@color/purple_500" />
+
+</LinearLayout>
